@@ -1,0 +1,24 @@
+.transaction-history {
+  margin-top: 15px;
+  border: 2px solid grey;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+  border-collapse: collapse;
+  width: 350px;
+}
+
+.head {
+  color: white;
+  background-color: rgb(66, 199, 252);
+}
+
+.table {
+  border: 1px solid grey;
+}
+
+.t-row:nth-child(even) {
+  background-color: rgb(216, 216, 216);
+}
+
+body {
+  margin-left: 50px;
+}

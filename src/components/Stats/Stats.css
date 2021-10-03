@@ -1,0 +1,34 @@
+h2 {
+  margin: 0;
+}
+
+.statistics {
+  display: inline-block;
+  width: 350px;
+  margin-top: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.statistics__title {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stat-list__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-list__item:not(:last-child) {
+  margin-right: 10px;
+}

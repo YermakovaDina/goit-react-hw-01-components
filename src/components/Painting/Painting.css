@@ -1,0 +1,44 @@
+p {
+  margin: 0;
+}
+
+.profile {
+  width: 350px;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profile__avatar {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+.profile__name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile__tag,
+.profile__location {
+  margin-bottom: 10px;
+}
+
+.profile__stats {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid grey;
+}
+
+.profile__stats-item {
+  padding: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
